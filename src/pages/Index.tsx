@@ -44,7 +44,7 @@ const Index = () => {
           <div className="h-full border-l border-dashed border-slate-300" />
           
           {/* Hover-enabled badge - THIS IS THE KEY PART */}
-          <div className="w-[24px] h-[24px] px-[6px] bg-slate-100 dark:bg-slate-800 rounded-[14px] hover:rounded-[4px] border-[1px] border-slate-300 dark:border-slate-700 flex justify-center items-center group/badge relative cursor-pointer hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors">
+          <div className="w-[24px] h-[24px] px-[6px] bg-slate-100 hover:bg-background dark:bg-slate-800 rounded-[14px] hover:rounded-[4px] border-[1px] border-slate-300 dark:border-slate-700 flex justify-center items-center group/badge relative cursor-pointer hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors">
             {/* Number - hidden on hover */}
             <div className="text-foreground text-[14px] leading-normal group-hover/badge:opacity-0 transition-opacity">
               {count}
